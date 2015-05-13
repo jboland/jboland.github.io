@@ -1,0 +1,59 @@
+@import "variables";
+
+// Global
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+
+// Header
+
+.header {
+	h1, h3 {
+		font-weight: normal;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1.15em;
+	}
+}
+
+// Contact
+
+.contact {
+
+	.unstyled {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+			padding: 0 5px;
+		}
+
+	}
+
+
+}
+
