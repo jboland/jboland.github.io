@@ -27,6 +27,10 @@ a:visited {
   padding-left: 0; }
   .contact .unstyled li {
     display: inline-block;
-    padding: 0 5px; }
+    padding: 5px;
+    border-radius: 5px; }
+  .contact .unstyled li:active,
+  .contact .unstyled li:hover {
+    background-color: #ebebeb; }
 
 /*# sourceMappingURL=style.css.map */
