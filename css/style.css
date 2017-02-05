@@ -1,9 +1,16 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 body {
-  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; }
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
 
 a {
   text-decoration: none;
@@ -17,8 +24,10 @@ a:visited {
   font-weight: normal;
   text-transform: uppercase;
   margin: 0; }
+
 .header h1 {
   font-size: 2em; }
+
 .header h3 {
   font-size: 1.15em; }
 
@@ -32,5 +41,3 @@ a:visited {
   .contact .unstyled li:active,
   .contact .unstyled li:hover {
     background-color: #ebebeb; }
-
-/*# sourceMappingURL=style.css.map */
